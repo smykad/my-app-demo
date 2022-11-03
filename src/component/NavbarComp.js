@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Container, Nav, Navbar} from 'react-bootstrap';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import { About } from './About';
-import { Contatct } from './Contact';
+import { Contact } from './Contact';
 import { Home } from './Home';
 
 
@@ -27,7 +27,7 @@ export default class NavbarComp extends Component {
       <div>
       <Routes>
         <Route path="/about" element={<About/>}/>
-        <Route path="/contact" element={<Contatct/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         <Route path="/" element={<Home/>}/>
       </Routes>
       </div>          
